@@ -13,11 +13,11 @@ public class app_dz1 {
         System.out.printf("Треугольное число номер %d равно %d.\n", num, GetTriangleNum(num));
 
     }
-    
+    // метод возвращает N-е треугольное число
     public static int GetTriangleNum(int n) {
         return n * (n + 1) / 2;
     }
-
+    // метод возвращает введеное пользователем число
     public static int getNumberByUser(String text) {
         System.out.print(text);
         return input.nextInt();
